@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE682EE143C1345005ABA32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682ED143C1345005ABA32 /* UIKit.framework */; };
+		EFE682F0143C1345005ABA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682EF143C1345005ABA32 /* Foundation.framework */; };
+		EFE682F2143C1345005ABA32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682F1143C1345005ABA32 /* CoreGraphics.framework */; };
+		EFE682F8143C1345005ABA32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFE682F6143C1345005ABA32 /* InfoPlist.strings */; };
+		EFE682FA143C1345005ABA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE682F9143C1345005ABA32 /* main.m */; };
+		EFE682FE143C1345005ABA32 /* CASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE682FD143C1345005ABA32 /* CASAppDelegate.m */; };
+		EFE68301143C1345005ABA32 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE682FF143C1345005ABA32 /* MainWindow.xib */; };
+		EFE68304143C1345005ABA32 /* CASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE68303143C1345005ABA32 /* CASViewController.m */; };
+		EFE68307143C1345005ABA32 /* CASViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE68305143C1345005ABA32 /* CASViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFE682E9143C1345005ABA32 /* CAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE682ED143C1345005ABA32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFE682EF143C1345005ABA32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFE682F1143C1345005ABA32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFE682F5143C1345005ABA32 /* CAS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAS-Info.plist"; sourceTree = "<group>"; };
+		EFE682F7143C1345005ABA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFE682F9143C1345005ABA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE682FB143C1345005ABA32 /* CAS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAS-Prefix.pch"; sourceTree = "<group>"; };
+		EFE682FC143C1345005ABA32 /* CASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASAppDelegate.h; sourceTree = "<group>"; };
+		EFE682FD143C1345005ABA32 /* CASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASAppDelegate.m; sourceTree = "<group>"; };
+		EFE68300143C1345005ABA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EFE68302143C1345005ABA32 /* CASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASViewController.h; sourceTree = "<group>"; };
+		EFE68303143C1345005ABA32 /* CASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASViewController.m; sourceTree = "<group>"; };
+		EFE68306143C1345005ABA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CASViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE682E6143C1344005ABA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE682EE143C1345005ABA32 /* UIKit.framework in Frameworks */,
+				EFE682F0143C1345005ABA32 /* Foundation.framework in Frameworks */,
+				EFE682F2143C1345005ABA32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE682DE143C1344005ABA32 = {
+			isa = PBXGroup;
+			children = (
+				EFE682F3143C1345005ABA32 /* CAS */,
+				EFE682EC143C1345005ABA32 /* Frameworks */,
+				EFE682EA143C1345005ABA32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE682EA143C1345005ABA32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE682E9143C1345005ABA32 /* CAS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE682EC143C1345005ABA32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE682ED143C1345005ABA32 /* UIKit.framework */,
+				EFE682EF143C1345005ABA32 /* Foundation.framework */,
+				EFE682F1143C1345005ABA32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE682F3143C1345005ABA32 /* CAS */ = {
+			isa = PBXGroup;
+			children = (
+				EFE682FC143C1345005ABA32 /* CASAppDelegate.h */,
+				EFE682FD143C1345005ABA32 /* CASAppDelegate.m */,
+				EFE682FF143C1345005ABA32 /* MainWindow.xib */,
+				EFE68302143C1345005ABA32 /* CASViewController.h */,
+				EFE68303143C1345005ABA32 /* CASViewController.m */,
+				EFE68305143C1345005ABA32 /* CASViewController.xib */,
+				EFE682F4143C1345005ABA32 /* Supporting Files */,
+			);
+			path = CAS;
+			sourceTree = "<group>";
+		};
+		EFE682F4143C1345005ABA32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE682F5143C1345005ABA32 /* CAS-Info.plist */,
+				EFE682F6143C1345005ABA32 /* InfoPlist.strings */,
+				EFE682F9143C1345005ABA32 /* main.m */,
+				EFE682FB143C1345005ABA32 /* CAS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE682E8143C1344005ABA32 /* CAS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE6830A143C1345005ABA32 /* Build configuration list for PBXNativeTarget "CAS" */;
+			buildPhases = (
+				EFE682E5143C1344005ABA32 /* Sources */,
+				EFE682E6143C1344005ABA32 /* Frameworks */,
+				EFE682E7143C1344005ABA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAS;
+			productName = CAS;
+			productReference = EFE682E9143C1345005ABA32 /* CAS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE682E0143C1344005ABA32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EFE682E3143C1344005ABA32 /* Build configuration list for PBXProject "CAS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFE682DE143C1344005ABA32;
+			productRefGroup = EFE682EA143C1345005ABA32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE682E8143C1344005ABA32 /* CAS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE682E7143C1344005ABA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE682F8143C1345005ABA32 /* InfoPlist.strings in Resources */,
+				EFE68301143C1345005ABA32 /* MainWindow.xib in Resources */,
+				EFE68307143C1345005ABA32 /* CASViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE682E5143C1344005ABA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE682FA143C1345005ABA32 /* main.m in Sources */,
+				EFE682FE143C1345005ABA32 /* CASAppDelegate.m in Sources */,
+				EFE68304143C1345005ABA32 /* CASViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFE682F6143C1345005ABA32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE682F7143C1345005ABA32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFE682FF143C1345005ABA32 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE68300143C1345005ABA32 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EFE68305143C1345005ABA32 /* CASViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE68306143C1345005ABA32 /* en */,
+			);
+			name = CASViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE68308143C1345005ABA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFE68309143C1345005ABA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE6830B143C1345005ABA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAS/CAS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers",
+					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers/symbolic",
+				);
+				INFOPLIST_FILE = "CAS/CAS-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFE6830C143C1345005ABA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAS/CAS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers",
+					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers/symbolic",
+				);
+				INFOPLIST_FILE = "CAS/CAS-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE682E3143C1344005ABA32 /* Build configuration list for PBXProject "CAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE68308143C1345005ABA32 /* Debug */,
+				EFE68309143C1345005ABA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE6830A143C1345005ABA32 /* Build configuration list for PBXNativeTarget "CAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE6830B143C1345005ABA32 /* Debug */,
+				EFE6830C143C1345005ABA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE682E0143C1344005ABA32 /* Project object */;
+}
