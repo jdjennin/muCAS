@@ -9,18 +9,28 @@
 #import "CASAppDelegate.h"
 
 #import "CASViewController.h"
+#import "IIViewDeckController.h"
+#import "CASEntryTableViewController.h"
 
 @implementation CASAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize deck;
+
++ (IIViewDeckController *)deck {
+  return [(CASAppDelegate *)[[UIApplication sharedApplication] delegate] deck];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   // Override point for customization after application launch.
    
-  self.window.rootViewController = self.viewController;
+  self.deck = [[[IIViewDeckController alloc] initWithCenterViewController:self.viewController leftViewController:[[[CASEntryTableViewController alloc] initWithNibName:nil bundle:nil] autorelease]] autorelease];
+  self.window.rootViewController = deck;
   [self.window makeKeyAndVisible];
+
+  
     return YES;
 }
 
@@ -67,6 +77,7 @@
 {
   [_window release];
   [_viewController release];
+  [deck release];
     [super dealloc];
 }
 

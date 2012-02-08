@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class CASViewController;
+@class CASViewController, IIViewDeckController;
 
 @interface CASAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet CASViewController *viewController;
+
+@property (nonatomic, retain) IIViewDeckController *deck;
+
++ (IIViewDeckController *)deck;
 
 @end

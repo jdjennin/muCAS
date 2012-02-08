@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF24572C14DC680300F13F52 /* libmathomatic_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF24572A14DC680300F13F52 /* libmathomatic_iphonesimulator.a */; };
+		EF24572D14DC680300F13F52 /* libmathomatic_iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF24572B14DC680300F13F52 /* libmathomatic_iphone.a */; };
+		EF24EAFC14CA04DF00EC7EB8 /* MathOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24EAFB14CA04DF00EC7EB8 /* MathOperation.m */; };
+		EF57ADB314E227E30011F001 /* CASEntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57ADB114E227E30011F001 /* CASEntryTableViewController.m */; };
+		EF57ADB414E227E30011F001 /* CASEntryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF57ADB214E227E30011F001 /* CASEntryTableViewController.xib */; };
+		EF57ADB814E229E60011F001 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57ADB714E229E60011F001 /* UIColor+Hex.m */; };
+		EF57ADC814E22E550011F001 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57ADC514E22E550011F001 /* IIViewDeckController.m */; };
+		EF57ADC914E22E550011F001 /* WrappedController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57ADC714E22E550011F001 /* WrappedController.m */; };
 		EFE682EE143C1345005ABA32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682ED143C1345005ABA32 /* UIKit.framework */; };
 		EFE682F0143C1345005ABA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682EF143C1345005ABA32 /* Foundation.framework */; };
 		EFE682F2143C1345005ABA32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE682F1143C1345005ABA32 /* CoreGraphics.framework */; };
@@ -19,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF24572A14DC680300F13F52 /* libmathomatic_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmathomatic_iphonesimulator.a; sourceTree = "<group>"; };
+		EF24572B14DC680300F13F52 /* libmathomatic_iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmathomatic_iphone.a; sourceTree = "<group>"; };
+		EF24572E14DC681300F13F52 /* mathomatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathomatic.h; sourceTree = "<group>"; };
+		EF24EAFA14CA04DF00EC7EB8 /* MathOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperation.h; sourceTree = "<group>"; };
+		EF24EAFB14CA04DF00EC7EB8 /* MathOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperation.m; sourceTree = "<group>"; };
+		EF57ADB014E227E30011F001 /* CASEntryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASEntryTableViewController.h; sourceTree = "<group>"; };
+		EF57ADB114E227E30011F001 /* CASEntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASEntryTableViewController.m; sourceTree = "<group>"; };
+		EF57ADB214E227E30011F001 /* CASEntryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CASEntryTableViewController.xib; sourceTree = "<group>"; };
+		EF57ADB614E229E60011F001 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EF57ADB714E229E60011F001 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EF57ADC414E22E550011F001 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		EF57ADC514E22E550011F001 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		EF57ADC614E22E550011F001 /* WrappedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedController.h; sourceTree = "<group>"; };
+		EF57ADC714E22E550011F001 /* WrappedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedController.m; sourceTree = "<group>"; };
 		EFE682E9143C1345005ABA32 /* CAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE682ED143C1345005ABA32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFE682EF143C1345005ABA32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,12 +65,35 @@
 				EFE682EE143C1345005ABA32 /* UIKit.framework in Frameworks */,
 				EFE682F0143C1345005ABA32 /* Foundation.framework in Frameworks */,
 				EFE682F2143C1345005ABA32 /* CoreGraphics.framework in Frameworks */,
+				EF24572C14DC680300F13F52 /* libmathomatic_iphonesimulator.a in Frameworks */,
+				EF24572D14DC680300F13F52 /* libmathomatic_iphone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF24572814DC67F000F13F52 /* Mathomatic */ = {
+			isa = PBXGroup;
+			children = (
+				EF24572E14DC681300F13F52 /* mathomatic.h */,
+				EF24572A14DC680300F13F52 /* libmathomatic_iphonesimulator.a */,
+				EF24572B14DC680300F13F52 /* libmathomatic_iphone.a */,
+			);
+			name = Mathomatic;
+			sourceTree = "<group>";
+		};
+		EF57ADC314E22E420011F001 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				EF57ADC414E22E550011F001 /* IIViewDeckController.h */,
+				EF57ADC514E22E550011F001 /* IIViewDeckController.m */,
+				EF57ADC614E22E550011F001 /* WrappedController.h */,
+				EF57ADC714E22E550011F001 /* WrappedController.m */,
+			);
+			name = ViewDeck;
+			sourceTree = "<group>";
+		};
 		EFE682DE143C1344005ABA32 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +114,7 @@
 		EFE682EC143C1345005ABA32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF24572814DC67F000F13F52 /* Mathomatic */,
 				EFE682ED143C1345005ABA32 /* UIKit.framework */,
 				EFE682EF143C1345005ABA32 /* Foundation.framework */,
 				EFE682F1143C1345005ABA32 /* CoreGraphics.framework */,
@@ -79,6 +125,7 @@
 		EFE682F3143C1345005ABA32 /* CAS */ = {
 			isa = PBXGroup;
 			children = (
+				EF57ADC314E22E420011F001 /* ViewDeck */,
 				EFE682FC143C1345005ABA32 /* CASAppDelegate.h */,
 				EFE682FD143C1345005ABA32 /* CASAppDelegate.m */,
 				EFE682FF143C1345005ABA32 /* MainWindow.xib */,
@@ -86,6 +133,11 @@
 				EFE68303143C1345005ABA32 /* CASViewController.m */,
 				EFE68305143C1345005ABA32 /* CASViewController.xib */,
 				EFE682F4143C1345005ABA32 /* Supporting Files */,
+				EF24EAFA14CA04DF00EC7EB8 /* MathOperation.h */,
+				EF24EAFB14CA04DF00EC7EB8 /* MathOperation.m */,
+				EF57ADB014E227E30011F001 /* CASEntryTableViewController.h */,
+				EF57ADB114E227E30011F001 /* CASEntryTableViewController.m */,
+				EF57ADB214E227E30011F001 /* CASEntryTableViewController.xib */,
 			);
 			path = CAS;
 			sourceTree = "<group>";
@@ -93,6 +145,8 @@
 		EFE682F4143C1345005ABA32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF57ADB614E229E60011F001 /* UIColor+Hex.h */,
+				EF57ADB714E229E60011F001 /* UIColor+Hex.m */,
 				EFE682F5143C1345005ABA32 /* CAS-Info.plist */,
 				EFE682F6143C1345005ABA32 /* InfoPlist.strings */,
 				EFE682F9143C1345005ABA32 /* main.m */,
@@ -154,6 +208,7 @@
 				EFE682F8143C1345005ABA32 /* InfoPlist.strings in Resources */,
 				EFE68301143C1345005ABA32 /* MainWindow.xib in Resources */,
 				EFE68307143C1345005ABA32 /* CASViewController.xib in Resources */,
+				EF57ADB414E227E30011F001 /* CASEntryTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +222,11 @@
 				EFE682FA143C1345005ABA32 /* main.m in Sources */,
 				EFE682FE143C1345005ABA32 /* CASAppDelegate.m in Sources */,
 				EFE68304143C1345005ABA32 /* CASViewController.m in Sources */,
+				EF24EAFC14CA04DF00EC7EB8 /* MathOperation.m in Sources */,
+				EF57ADB314E227E30011F001 /* CASEntryTableViewController.m in Sources */,
+				EF57ADB814E229E60011F001 /* UIColor+Hex.m in Sources */,
+				EF57ADC814E22E550011F001 /* IIViewDeckController.m in Sources */,
+				EF57ADC914E22E550011F001 /* WrappedController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,11 +275,17 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/jdjennin/Programming/CAS/;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmathomatic",
+					"-lm",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -232,12 +298,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/jdjennin/Programming/CAS/;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lmathomatic",
+					"-lm",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -250,12 +322,23 @@
 				GCC_PREFIX_HEADER = "CAS/CAS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers",
-					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers/symbolic",
+					"/Users/jdjennin/Downloads/mathomatic-15.6.5/**",
+					/Users/jdjennin/Programming/CAS,
 				);
 				INFOPLIST_FILE = "CAS/CAS-Info.plist";
-				OTHER_LDFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/CAS\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmathomatic_iphone",
+					"-lmathomatic_iphonesimulator",
+					"-lm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 armv6 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,12 +350,23 @@
 				GCC_PREFIX_HEADER = "CAS/CAS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers",
-					"/Users/jdjennin/Programming/CAS/CAS/SymbolicC++3-3.35/headers/symbolic",
+					"/Users/jdjennin/Downloads/mathomatic-15.6.5/**",
+					/Users/jdjennin/Programming/CAS,
 				);
 				INFOPLIST_FILE = "CAS/CAS-Info.plist";
-				OTHER_LDFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/CAS\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmathomatic_iphone",
+					"-lmathomatic_iphonesimulator",
+					"-lm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 armv6 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class IIViewDeckController;
+
 @interface CASViewController : UIViewController {
   
 }

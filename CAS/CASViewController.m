@@ -7,6 +7,9 @@
 //
 
 #import "CASViewController.h"
+#import "MathOperation.h"
+#import "CASAppDelegate.h"
+#import "IIViewDeckController.h"
 
 @implementation CASViewController
 
@@ -36,6 +39,20 @@
     [super viewDidLoad];
   NSString *body = @"<!DOCTYPE html><html><head>  <title>MathML in HTML5</title>  </head>  <body>    <h1>MathML in HTML5</h1>    <math display=\"block\">  <mrow>  <munderover>  <mo>&Sum;</mo>  <mrow>  <mi>i</mi>  <mo>=</mo>  <mn>1</mn>  </mrow>  <mi>N</mi>  </munderover>  <msub>  <mi>a</mi>  <mi>i</mi>  </msub>  </mrow>  </math>    </body>  </html>";
   [self.webView loadHTMLString:body baseURL:nil];
+  
+  MathOperation *op = [[MathOperation alloc] init];
+  [op sum];
+  [op release];
+  
+  UISwipeGestureRecognizer *g = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swiped:)];
+  [g setDirection:UISwipeGestureRecognizerDirectionRight];
+  [self.view addGestureRecognizer:g];
+  [g release];
+}
+
+- (void)swiped:(id)sender {
+  IIViewDeckController *d = [CASAppDelegate deck];
+  [d toggleLeftViewAnimated:YES];
 }
 
 
