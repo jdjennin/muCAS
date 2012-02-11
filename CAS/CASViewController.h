@@ -7,16 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwizzleMasterViewController.h"
 
 @class IIViewDeckController;
 
-@interface CASViewController : UIViewController {
+@interface CASViewController : SwizzleMasterViewController {
   
 }
 
 @property (nonatomic, retain) IBOutlet UITextField *inputFunction;
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
-
-- (IBAction)derive:(id)sender;
 
 @end

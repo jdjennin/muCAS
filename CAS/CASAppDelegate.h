@@ -10,11 +10,17 @@
 
 @class CASViewController, IIViewDeckController;
 
-@interface CASAppDelegate : NSObject <UIApplicationDelegate>
+@interface CASAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet CASViewController *viewController;
+
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+
+@property (nonatomic, retain) IBOutlet UIView *tabOverlay;
+
+@property (nonatomic, retain) IBOutlet UIImageView *tabImage;
 
 @property (nonatomic, retain) IIViewDeckController *deck;
 

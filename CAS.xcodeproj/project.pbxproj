@@ -24,6 +24,21 @@
 		EFE68301143C1345005ABA32 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE682FF143C1345005ABA32 /* MainWindow.xib */; };
 		EFE68304143C1345005ABA32 /* CASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE68303143C1345005ABA32 /* CASViewController.m */; };
 		EFE68307143C1345005ABA32 /* CASViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE68305143C1345005ABA32 /* CASViewController.xib */; };
+		EFF74AE314E6333B00BD0B11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AE214E6333B00BD0B11 /* Default.png */; };
+		EFF74AE614E6334000BD0B11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AE514E6333F00BD0B11 /* Default@2x.png */; };
+		EFF74AEA14E634E900BD0B11 /* img_nav_bar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AE814E634E900BD0B11 /* img_nav_bar_bg.png */; };
+		EFF74AEB14E634E900BD0B11 /* img_tab_bar_0.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AE914E634E900BD0B11 /* img_tab_bar_0.png */; };
+		EFF74AEE14E6369100BD0B11 /* img_tab_bar_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AEC14E6369100BD0B11 /* img_tab_bar_1.png */; };
+		EFF74AEF14E6369100BD0B11 /* img_tab_bar_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AED14E6369100BD0B11 /* img_tab_bar_2.png */; };
+		EFF74AF314E6382900BD0B11 /* PlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74AF114E6382900BD0B11 /* PlotsViewController.m */; };
+		EFF74AF414E6382900BD0B11 /* PlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AF214E6382900BD0B11 /* PlotsViewController.xib */; };
+		EFF74AF814E6386600BD0B11 /* FractalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74AF614E6386600BD0B11 /* FractalViewController.m */; };
+		EFF74AF914E6386600BD0B11 /* FractalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF74AF714E6386600BD0B11 /* FractalViewController.xib */; };
+		EFF74B0314E63B0100BD0B11 /* SCAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74AFC14E63B0100BD0B11 /* SCAppUtils.m */; };
+		EFF74B0414E63B0100BD0B11 /* SCClassUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74AFE14E63B0100BD0B11 /* SCClassUtils.m */; };
+		EFF74B0514E63B0100BD0B11 /* SwizzleMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74B0014E63B0100BD0B11 /* SwizzleMasterViewController.m */; };
+		EFF74B0614E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74B0214E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.m */; };
+		EFF74B1514E63CC400BD0B11 /* JJView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF74B1414E63CC400BD0B11 /* JJView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +70,28 @@
 		EFE68302143C1345005ABA32 /* CASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASViewController.h; sourceTree = "<group>"; };
 		EFE68303143C1345005ABA32 /* CASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASViewController.m; sourceTree = "<group>"; };
 		EFE68306143C1345005ABA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CASViewController.xib; sourceTree = "<group>"; };
+		EFF74AE214E6333B00BD0B11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EFF74AE514E6333F00BD0B11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EFF74AE814E634E900BD0B11 /* img_nav_bar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_nav_bar_bg.png; sourceTree = "<group>"; };
+		EFF74AE914E634E900BD0B11 /* img_tab_bar_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_bar_0.png; sourceTree = "<group>"; };
+		EFF74AEC14E6369100BD0B11 /* img_tab_bar_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_bar_1.png; sourceTree = "<group>"; };
+		EFF74AED14E6369100BD0B11 /* img_tab_bar_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_bar_2.png; sourceTree = "<group>"; };
+		EFF74AF014E6382900BD0B11 /* PlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotsViewController.h; sourceTree = "<group>"; };
+		EFF74AF114E6382900BD0B11 /* PlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotsViewController.m; sourceTree = "<group>"; };
+		EFF74AF214E6382900BD0B11 /* PlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlotsViewController.xib; sourceTree = "<group>"; };
+		EFF74AF514E6386600BD0B11 /* FractalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalViewController.h; sourceTree = "<group>"; };
+		EFF74AF614E6386600BD0B11 /* FractalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractalViewController.m; sourceTree = "<group>"; };
+		EFF74AF714E6386600BD0B11 /* FractalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FractalViewController.xib; sourceTree = "<group>"; };
+		EFF74AFB14E63B0100BD0B11 /* SCAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAppUtils.h; sourceTree = "<group>"; };
+		EFF74AFC14E63B0100BD0B11 /* SCAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAppUtils.m; sourceTree = "<group>"; };
+		EFF74AFD14E63B0100BD0B11 /* SCClassUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCClassUtils.h; sourceTree = "<group>"; };
+		EFF74AFE14E63B0100BD0B11 /* SCClassUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCClassUtils.m; sourceTree = "<group>"; };
+		EFF74AFF14E63B0100BD0B11 /* SwizzleMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleMasterViewController.h; sourceTree = "<group>"; };
+		EFF74B0014E63B0100BD0B11 /* SwizzleMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleMasterViewController.m; sourceTree = "<group>"; };
+		EFF74B0114E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SCBackgroundImage.h"; sourceTree = "<group>"; };
+		EFF74B0214E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SCBackgroundImage.m"; sourceTree = "<group>"; };
+		EFF74B1314E63CC400BD0B11 /* JJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJView.h; sourceTree = "<group>"; };
+		EFF74B1414E63CC400BD0B11 /* JJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +134,9 @@
 		EFE682DE143C1344005ABA32 = {
 			isa = PBXGroup;
 			children = (
+				EFF74AE714E634CC00BD0B11 /* Resources */,
+				EFF74AE514E6333F00BD0B11 /* Default@2x.png */,
+				EFF74AE214E6333B00BD0B11 /* Default.png */,
 				EFE682F3143C1345005ABA32 /* CAS */,
 				EFE682EC143C1345005ABA32 /* Frameworks */,
 				EFE682EA143C1345005ABA32 /* Products */,
@@ -125,6 +165,7 @@
 		EFE682F3143C1345005ABA32 /* CAS */ = {
 			isa = PBXGroup;
 			children = (
+				EFF74AFA14E63AE000BD0B11 /* Swizzle */,
 				EF57ADC314E22E420011F001 /* ViewDeck */,
 				EFE682FC143C1345005ABA32 /* CASAppDelegate.h */,
 				EFE682FD143C1345005ABA32 /* CASAppDelegate.m */,
@@ -138,6 +179,12 @@
 				EF57ADB014E227E30011F001 /* CASEntryTableViewController.h */,
 				EF57ADB114E227E30011F001 /* CASEntryTableViewController.m */,
 				EF57ADB214E227E30011F001 /* CASEntryTableViewController.xib */,
+				EFF74AF014E6382900BD0B11 /* PlotsViewController.h */,
+				EFF74AF114E6382900BD0B11 /* PlotsViewController.m */,
+				EFF74AF214E6382900BD0B11 /* PlotsViewController.xib */,
+				EFF74AF514E6386600BD0B11 /* FractalViewController.h */,
+				EFF74AF614E6386600BD0B11 /* FractalViewController.m */,
+				EFF74AF714E6386600BD0B11 /* FractalViewController.xib */,
 			);
 			path = CAS;
 			sourceTree = "<group>";
@@ -153,6 +200,34 @@
 				EFE682FB143C1345005ABA32 /* CAS-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF74AE714E634CC00BD0B11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFF74AE814E634E900BD0B11 /* img_nav_bar_bg.png */,
+				EFF74AE914E634E900BD0B11 /* img_tab_bar_0.png */,
+				EFF74AEC14E6369100BD0B11 /* img_tab_bar_1.png */,
+				EFF74AED14E6369100BD0B11 /* img_tab_bar_2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EFF74AFA14E63AE000BD0B11 /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				EFF74B1314E63CC400BD0B11 /* JJView.h */,
+				EFF74B1414E63CC400BD0B11 /* JJView.m */,
+				EFF74AFB14E63B0100BD0B11 /* SCAppUtils.h */,
+				EFF74AFC14E63B0100BD0B11 /* SCAppUtils.m */,
+				EFF74AFD14E63B0100BD0B11 /* SCClassUtils.h */,
+				EFF74AFE14E63B0100BD0B11 /* SCClassUtils.m */,
+				EFF74AFF14E63B0100BD0B11 /* SwizzleMasterViewController.h */,
+				EFF74B0014E63B0100BD0B11 /* SwizzleMasterViewController.m */,
+				EFF74B0114E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.h */,
+				EFF74B0214E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.m */,
+			);
+			name = Swizzle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +284,14 @@
 				EFE68301143C1345005ABA32 /* MainWindow.xib in Resources */,
 				EFE68307143C1345005ABA32 /* CASViewController.xib in Resources */,
 				EF57ADB414E227E30011F001 /* CASEntryTableViewController.xib in Resources */,
+				EFF74AE314E6333B00BD0B11 /* Default.png in Resources */,
+				EFF74AE614E6334000BD0B11 /* Default@2x.png in Resources */,
+				EFF74AEA14E634E900BD0B11 /* img_nav_bar_bg.png in Resources */,
+				EFF74AEB14E634E900BD0B11 /* img_tab_bar_0.png in Resources */,
+				EFF74AEE14E6369100BD0B11 /* img_tab_bar_1.png in Resources */,
+				EFF74AEF14E6369100BD0B11 /* img_tab_bar_2.png in Resources */,
+				EFF74AF414E6382900BD0B11 /* PlotsViewController.xib in Resources */,
+				EFF74AF914E6386600BD0B11 /* FractalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +310,13 @@
 				EF57ADB814E229E60011F001 /* UIColor+Hex.m in Sources */,
 				EF57ADC814E22E550011F001 /* IIViewDeckController.m in Sources */,
 				EF57ADC914E22E550011F001 /* WrappedController.m in Sources */,
+				EFF74AF314E6382900BD0B11 /* PlotsViewController.m in Sources */,
+				EFF74AF814E6386600BD0B11 /* FractalViewController.m in Sources */,
+				EFF74B0314E63B0100BD0B11 /* SCAppUtils.m in Sources */,
+				EFF74B0414E63B0100BD0B11 /* SCClassUtils.m in Sources */,
+				EFF74B0514E63B0100BD0B11 /* SwizzleMasterViewController.m in Sources */,
+				EFF74B0614E63B0100BD0B11 /* UINavigationBar+SCBackgroundImage.m in Sources */,
+				EFF74B1514E63CC400BD0B11 /* JJView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

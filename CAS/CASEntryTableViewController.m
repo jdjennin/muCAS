@@ -84,17 +84,17 @@
 #pragma mark - UITableViewDataSource methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-  
+  [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
   UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 20)];
   [header setBackgroundColor:[UIColor colorWithHexString:@"f1b9ff"]];
   
-  UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 320, 20)];
+  UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(10, 1, 320, 20)];
   [l setBackgroundColor:[UIColor clearColor]];
   [l setTextColor:[UIColor whiteColor]];
-  [l setFont:[UIFont systemFontOfSize:17]];
+  [l setFont:[UIFont boldSystemFontOfSize:17]];
   NSString *s = [self.sections objectAtIndex:section];
   [l setText:s];
   [header addSubview:l];
