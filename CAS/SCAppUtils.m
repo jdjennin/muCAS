@@ -20,7 +20,7 @@
   if (imageView == nil)
   {
     imageView = [[UIImageView alloc] initWithImage:
-                 [UIImage imageNamed:@"img_nav_bar_bg.png"]];
+                 [UIImage imageNamed:@"nav_bar_bg.png"]];
     imageView.frame = CGRectMake(0, 0, 320, 44);
     imageView.contentMode = UIViewContentModeScaleToFill;
     [imageView setTag:kSCNavBarImageTag];

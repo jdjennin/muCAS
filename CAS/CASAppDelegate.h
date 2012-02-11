@@ -21,6 +21,7 @@
 @property (nonatomic, retain) IBOutlet UIView *tabOverlay;
 
 @property (nonatomic, retain) IBOutlet UIImageView *tabImage;
+// Use another tabImage to fade between tab bar selections for a more natural effect
 
 @property (nonatomic, retain) IIViewDeckController *deck;
 

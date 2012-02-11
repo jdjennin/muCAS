@@ -91,7 +91,18 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
   int index = self.tabBarController.selectedIndex;
-  self.tabImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"img_tab_bar_%i.png", index]];
+  
+  UIImageView *newTab = [[UIImageView alloc] initWithFrame:self.tabImage.frame];
+  newTab.image = [UIImage imageNamed:[NSString stringWithFormat:@"img_tab_%i.png", index]];
+  [self.tabOverlay insertSubview:newTab belowSubview:self.tabImage];
+  [newTab release];
+  
+  [UIView animateWithDuration:0.3 animations:^{
+    self.tabImage.alpha = 0;
+  } completion:^(BOOL finished){
+    [self.tabImage removeFromSuperview];
+    self.tabImage = newTab;
+  }];
 }
 
 @end
